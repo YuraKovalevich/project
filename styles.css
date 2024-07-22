@@ -197,6 +197,10 @@ input[type="password"] {
 }
 
 .remember-me label {
+    font-size: 18px;
+    font-family: Manrope, serif;
+    font-weight: 400;
+    line-height: 25px;
     margin-left: 5px;
 }
 
