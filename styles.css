@@ -45,8 +45,44 @@ body {
     margin: 0 auto;
     padding: 0 15px;
     background: #EBF0FA;
+    border-radius: 10px;
 }
 
 .main {
+    padding: 30px 40px;
     flex: 1 1 auto;
+}
+.main__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main__content{
+    margin: 102px 0 102px 72px;
+    max-width: 511px;
+}
+.main__title{
+    font-family: Manrope, serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 48px;
+    color: #1F4284;
+}
+.main__subtitle{
+    font-family: Manrope, serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #727272;
+    margin: 18px 0 36px 0;
+}
+.main__btn{
+    max-width: 341px;
+    border-radius: 60px;
+    padding: 12px 12px 12px 24px;
+    background-color: #244C98;
+    color: white;
+}
+.main__image{
+    max-width: 910px;
 }
