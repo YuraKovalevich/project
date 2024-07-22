@@ -12,32 +12,57 @@
     <title>test</title>
 </head>
 <body>
-    <div class="wrapper">
-        <div class="main">
-            <div class="main__container">
-                <div class="main__content">
-                    <h2 class="main__title">
-                        Демо-версия
-                    </h2>
-                    <p class="main__subtitle">
-                        За 18 лет деятельности было реализовано более 500 крупных, а так же, не менее 2500 средних и малых проектов. Используя знания и накопленный опыт мы можем предложить
-                    </p>
-                    <a href="" class="main__btn">
-                        <p class="btn__text">Попробовать бесплатно</p>
-                        <svg class="custom-svg" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="44" height="44" rx="22" fill="white"/>
-                            <rect x="4" y="4" width="36" height="36" rx="18" fill="white"/>
-                            <path d="M17 17H27V27" stroke="#1F4284" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M17 27L27 17" stroke="#1F4284" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                    </a>
-                </div>
-                <div class="main__image">
-                    <img src="./assets/image%2015.png" alt="">
+<div class="wrapper">
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h2 class="main__title">
+                    Демо-версия
+                </h2>
+                <p class="main__subtitle">
+                    За 18 лет деятельности было реализовано более 500 крупных, а так же, не менее 2500 средних и малых
+                    проектов. Используя знания и накопленный опыт мы можем предложить
+                </p>
+                <a href="" class="main__btn">
+                    <p class="btn__text">Попробовать бесплатно</p>
+                    <svg class="custom-svg" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="44" height="44" rx="22" fill="white"/>
+                        <rect x="4" y="4" width="36" height="36" rx="18" fill="white"/>
+                        <path d="M17 17H27V27" stroke="#1F4284" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round"/>
+                        <path d="M17 27L27 17" stroke="#1F4284" stroke-width="2" stroke-linecap="round"
+                              stroke-linejoin="round"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="main__image">
+                <img src="./assets/image%2015.png" alt="">
+            </div>
+            <div id="modal" class="modal">
+                <div class="modal__content">
+                        <span class="modal__close">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18 6L6 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M6 6L18 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                    </span>
+                    <h2 class="modal__title">Войти в систему</h2>
+                    <form>
+                        <input type="text" id="email" name="email" placeholder="Email/Телефон" required>
+                        <input type="password" id="password" name="password" placeholder="Пароль">
+                        <div class="remember-me">
+                            <input type="checkbox" id="remember" name="remember">
+                            <label for="remember">Запомнить пароль</label>
+                        </div>
+                        <a href="#" class="recover">Восстановить</a>
+                        <button type="submit">Войти</button>
+                        <a href="#" class="register">Зарегистрироваться</a>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
-    <script src="script.js"></script>
+</div>
+<script src="script.js"></script>
 </body>
 </html>
